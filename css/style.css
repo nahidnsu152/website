@@ -2,85 +2,93 @@
 
 /* Global Rules */
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-a,li{
+a,
+li {
     text-decoration: none;
     color: white;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Lato', sans-serif;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background: #212121;
-    color: white; 
+    color: white;
 }
 
-.title{
+.title {
     text-align: center;
     background-color: #1A1A1A;
     padding: 15px;
 }
 
-.title h1{
+.title h1 {
     font-weight: bolder;
     font-size: 35px;
 }
 
-.display-pic{
+.display-pic {
     width: 100%;
 }
 
-.display-pic img{
+.display-pic img {
     display: block;
     width: 100%;
     height: 830px;
     background: transparent;
+    margin-top: 20px;
+
 
 }
 
-.top-bio{
-    margin: 5px 0 0;
+.top-bio {
+    margin: 15px 0 0;
 }
 
-.top-bio h1{
+.top-bio h1 {
     font-weight: bolder;
     font-size: 35px;
     text-align: center;
 }
 
-.top-bio p{
+.top-bio p {
     margin: 10px 0;
     font-size: 15px;
 }
 
-.top-bio a:hover{
+.top-bio a:hover {
     color: aqua;
 }
 
-hr{
-	border-top: 3px double #8c8b8b;
+hr {
+    border-top: 3px double #8c8b8b;
 }
 
-.article{
+.article {
     margin: 10px 0 35px;
     font-size: 15px;
 }
 
-.article-title{
+.article-title {
     font-size: 30px;
 }
 
-.article-title::after{
+.article-title::after {
     content: "";
     color: transparent;
-    background: linear-gradient(to left,rgba(252, 252, 252, 0), #ce5f5f);
+    background: linear-gradient(to left, rgba(252, 252, 252, 0), #ce5f5f);
     height: 3px;
     position: relative;
     width: auto;
@@ -93,30 +101,22 @@ hr{
     font-size: 15px;
 }
 
-.table-pos-we{
+.table-pos-we {
     margin: 25px auto 0;
 }
 
-.reference{
+.reference {
     margin: 40px 0 0;
 }
 
-.custom-footer{
+.custom-footer {
     text-align: center;
     background-color: #1A1A1A;
     padding: 15px;
 
 }
 
-.custom-footer h1{
+.custom-footer h1 {
     font-size: 10px;
 
 }
-
-
-
-
-
-
-
-
